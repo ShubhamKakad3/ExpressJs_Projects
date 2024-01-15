@@ -1,5 +1,5 @@
 import ProductModel from '../models/product.model.js';
-
+// product controller
 class ProductsController {
   getProducts(req, res, next) {
     var products = ProductModel.getAll();
